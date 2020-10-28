@@ -8,7 +8,7 @@
  *
  ****/
 
-#include "ToneBufferQueue.h"
+#include "include/ToneGenerator/ToneBufferQueue.h"
 
 void ToneBufferQueue::append(ToneBuffer* buf)
 {

@@ -9,8 +9,8 @@
  ****/
 
 #include "include/ToneGenerator.h"
-#include <string.h>
-#include "DeltaSigma.h"
+#include "include/ToneGenerator/DeltaSigma.h"
+#include <cstring>
 #include <algorithm>
 #include <FakePgmSpace.h>
 #include <stringutil.h>

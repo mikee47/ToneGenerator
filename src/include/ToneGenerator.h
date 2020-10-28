@@ -12,7 +12,7 @@
 
 #pragma once
 
-#include "../ToneBufferQueue.h"
+#include "ToneGenerator/ToneBufferQueue.h"
 #include <WString.h>
 #include <driver/i2s.h>
 
