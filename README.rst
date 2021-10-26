@@ -26,3 +26,12 @@ GPIO     Alternate      NodeMCU     Notes
 GPIO3 is still required for programming so you'll need to make sure the audio buffer is
 disconnected, or has a reasonably high impedance load. You'll also need an additional
 USB-serial converter connected to GPIO13 & 15 for terminal operation.
+
+API Documentation
+-----------------
+
+.. doxygenclass:: ToneGenerator
+   :members:
+
+.. doxygenclass:: ToneBuffer
+   :members:

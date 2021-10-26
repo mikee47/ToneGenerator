@@ -16,13 +16,13 @@
 #include <WString.h>
 #include <driver/i2s.h>
 
-#define TG_VOICE_MAP(XX)                                                                                              \
+#define TG_VOICE_MAP(XX)                                                                                               \
 	XX(Sine)                                                                                                           \
 	XX(Triangular)                                                                                                     \
 	XX(Sawtooth)                                                                                                       \
 	XX(Square)
 
-#define TG_EFFECT_MAP(XX)                                                                                            \
+#define TG_EFFECT_MAP(XX)                                                                                              \
 	XX(Normal)                                                                                                         \
 	XX(Mute)                                                                                                           \
 	XX(FadeIn)                                                                                                         \
